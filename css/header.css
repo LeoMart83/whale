@@ -1,0 +1,42 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #000; 
+}
+.conteiner{
+    margin: 0 auto;
+    width: 1110px;
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: 30px;
+}
+div.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    width: 410px;
+    justify-content: space-between;
+}
+div.contact{
+    width: 343px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a.tel{
+    font-weight: 700;
+}
+a.button{
+    background-color: #5551F7;
+    color: #fff;
+    padding: 12px 25px;
+}

@@ -1,0 +1,221 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.02em;
+}
+.conteiner-secondary{
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 34px;
+}
+section{
+    height: 445px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.box-info{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    height: 246px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box-info span{
+    color: #1c1d28b9;
+    font-weight: 300;
+}
+.box-info p{
+    font-size: 30px;
+    line-height: 43px;
+}
+.box-info a.button{
+    align-self: start;
+    border: 2px solid #5551F7;
+    background-color: #fff;
+    color: #5551F7;
+    margin-top: 25px;
+    transition-duration: 0.5s;
+}
+.box-info a.button:hover{
+    align-self: start;
+    border: 2px solid #5551F7;
+    background-color: #5551F7;
+    color: #fff;
+    margin-top: 25px;
+}
+.heading{
+    width: 535px;
+    height: 443px;
+    display: flex;
+    background-image: url(../img/Header-bg.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+.heading h1{
+    font-weight: 700;
+    font-size: 45px;
+    width: 380px;
+    margin-right: 153px;
+    align-self: center;
+}
+.about{
+    margin-top: 160px;
+    margin-bottom: 140px;
+    font-size: 15px;
+    height: 330px;
+    width: 830px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about span{
+    font-weight: 300;
+}
+.about .box1{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+}
+.about .box2{
+    font-weight: 400;
+    line-height: 28px;
+}
+.works{
+    margin-left: 65px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.works-heading h2{
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.works-menu{
+    display: flex; 
+    justify-content: space-between;
+}
+.works-menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    font-size: 15px;
+    font-weight: 400;
+}
+li.first a{
+    color: #FF5C66;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #FF5C66;
+}
+.works-menu a.all{
+    font-weight: 700;
+    font-size: 15px;
+    color: #FF5C66;
+}
+img[alt="Arrow"]{
+    padding-left: 12px;
+}
+.works-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 2746px;
+}
+.works-button{
+    margin: 0 auto;
+    width: 170px;
+    margin-top: 81px;
+    margin-bottom: 137px;
+}
+.works-button a{
+    padding: 13px 44px;
+    background-color: #5551F7;
+    color: #fff;
+    font-weight: 500;
+    font-size: 13px;
+}
+div.brief{
+    margin-bottom: 140px;
+}
+.brief__info h3{
+    font-weight: 500;
+    font-size: 30px;
+}
+.brief__info p{
+    font-weight: 400;
+    font-size: 15px;
+    width: 575px;
+    line-height: 27px;
+    margin-top: 25px;
+    margin-bottom: 75px;
+}
+div.brief__menu{
+    margin-left: 50px;
+}
+ul.brief__menu{
+    margin: 0;
+    padding: 0;
+}
+.brief__menu li{
+    list-style-type: none;
+    line-height: 65px;
+    display: flex;
+    align-items: center;
+}
+.brief__menu a{
+    margin-right: 30px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 65px;
+    color:  #E8EDF6;
+}
+.brief__menu span{
+    position: relative;
+    padding-left: 100px;
+    color: #E8EDF6;
+    display: none;
+    font-weight: 400;
+    font-size: 15px;
+}
+.brief__menu a:hover{
+    color: #FF5C66;
+}
+.brief__menu a:hover ~ span{
+    display: block;
+    color: #FF5C66;
+}
+.brief__menu span::before{
+    content: '';
+    width: 72px;
+    height: 1px;
+    background-color: #FF5C66;
+    position: absolute;
+    top: 33px;
+    left: 0;
+}
+.clients{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 132px;
+}
+.clients h3{
+    font-weight: 500;
+    font-size: 30px;
+}
+.clients p{
+    font-weight: 400;
+    font-size: 15px;
+    width: 400px;
+    text-align: center;
+    line-height: 27px;
+}
