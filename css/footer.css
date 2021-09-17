@@ -1,6 +1,9 @@
 *{
     font-family: 'Montserrat', sans-serif;
 }
+footer{
+    background-color: #1C1D28;
+}
 div.form{
     background-color: #5551F7;
     margin: 0;
@@ -41,6 +44,7 @@ div.form_main{
     justify-content: space-between;
 }
 .form_right input{
+    outline: none;
     margin-top: 2px;
     margin-bottom: 35px;
     height: 40px;
@@ -73,6 +77,9 @@ div.agree{
     align-items: center;
     margin-top: 25px;
 }
+input[type="submit"]{
+    cursor: pointer;
+}
 input[type="checkbox"]{
     margin-bottom: 0;
     width: 17px;
@@ -84,7 +91,7 @@ input[type="checkbox"]{
     cursor: pointer;
 }
 div.footer{
-    background-color: #1C1D28;
+    /* background-color: #1C1D28; */
     color: #fff;
     margin: 0;
     padding: 0;
@@ -97,6 +104,7 @@ div.footer a{
 div.top-block{
     display: flex;
     justify-content: space-between;
+    margin-top: 80px;
 }
 .top-block h3{
     font-weight: 700;
@@ -163,4 +171,51 @@ div.contacts{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+div.mess-logo a{
+    display: block;
+    height: 19px;
+    width: 19px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+div.mess-logo{
+    height: 19px;
+    width: 97px;
+    display: flex;
+    justify-content: space-between;
+}
+a.telegram{
+    background-image: url(../img/telegram.png);
+}
+a.telegram:hover{
+    background-image: url(../img/telegram-hover.png);
+}
+a.viber{
+    background-image: url(../img/viber.png);
+}
+a.viber:hover{
+    background-image: url(../img/viber-hover.png);
+}
+a.whatsapp{
+    background-image: url(../img/whatsapp.png);
+}
+a.whatsapp:hover{
+    background-image: url(../img/whatsapp-hover.png);
+}
+div.bottom-block{
+    margin-left: 50px;
+    color: #FFFFFF4D;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 62px;
+    padding-bottom: 40px;
+}
+div.bottom-block span{
+    margin-right: 450px;
+}
+div.bottom-block a{
+    color: #FFFFFF4D;
 }
